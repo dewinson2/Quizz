@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -11,8 +12,7 @@ import { HeroComponent } from './hero/hero.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Quizzx';
-  
+ 
 
 
 

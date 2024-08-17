@@ -1,5 +1,15 @@
-<h2>Pregunta</h2>
-<p>Respuesta</p>
-<p>Respuesta</p>
-<p>Respuesta</p>
-<p>Respuesta</p>
+
+
+
+@for(quizz of Quizzes;track quizz.id;){
+    <h2>{{quizz.question}}</h2>
+    <p>{{quizz.answers4}}</p>
+    <p>{{quizz.answers1}}</p>
+    <p>{{quizz.answers2}}</p>
+    <p>{{quizz.answers3}}</p>
+
+}
+
+
+
+
