@@ -1,0 +1,22 @@
+nav{
+
+
+    background-color: rgb(44, 102, 209);
+    height: 80px;
+}
+li{
+
+
+    list-style: none;
+    padding-left: 5%;
+    color: rgb(253, 11, 11);
+    padding-top: 2%;
+    font-size: 30px;
+    -webkit-text-stroke: 1px rgb(77, 73, 73);
+}
+
+ul{
+
+    display: flex;
+    
+}
